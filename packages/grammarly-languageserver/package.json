@@ -68,7 +68,7 @@
   ],
   "dependencies": {
     "@grammarly/sdk": "^2.3.17",
-    "@emacs-grammarly/grammarly-richtext-encoder": "^0.0.3",
+    "@emacs-grammarly/grammarly-richtext-encoder": "^0.0.4",
     "htmlparser2": "^8.0.1",
     "idb-keyval": "^6.1.0",
     "inversify": "^6.0.1",
