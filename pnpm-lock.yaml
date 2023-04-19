@@ -88,10 +88,10 @@ importers:
 
   extension:
     dependencies:
-      grammarly-languageclient:
+      '@emacs-grammarly/grammarly-languageclient':
         specifier: workspace:*
         version: link:../packages/grammarly-languageclient
-      grammarly-languageserver:
+      '@emacs-grammarly/grammarly-languageserver':
         specifier: workspace:*
         version: link:../packages/grammarly-languageserver
     devDependencies:
@@ -114,12 +114,12 @@ importers:
 
   packages/grammarly-languageserver:
     dependencies:
+      '@emacs-grammarly/grammarly-richtext-encoder':
+        specifier: ^0.0.3
+        version: 0.0.3
       '@grammarly/sdk':
         specifier: ^2.3.17
         version: 2.3.17
-      grammarly-richtext-encoder:
-        specifier: workspace:*
-        version: link:../grammarly-richtext-encoder
       htmlparser2:
         specifier: ^8.0.1
         version: 8.0.1
@@ -686,6 +686,12 @@ packages:
       human-id: 1.0.2
       prettier: 1.19.1
     dev: true
+
+  /@emacs-grammarly/grammarly-richtext-encoder@0.0.3:
+    resolution: {integrity: sha512-wcY/rcdgf1NLNbPEEP7/yZQUvPt5m2rx8S7N8AAWDq484zQujL09+vUhPFk0FftMqswwQVgbRypyDoj65NdpoA==}
+    dependencies:
+      web-tree-sitter: 0.20.5
+    dev: false
 
   /@grammarly/sdk@2.3.17:
     resolution: {integrity: sha512-/kaHmYIRdcrXPimbUDwZBEHHMqhw4M22IqLdMfnYLu8u+lAPc9EYNFvIDOoUVTvgxKwOFn0muYWWuyhRXjJq1g==}
