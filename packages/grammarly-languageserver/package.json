@@ -1,6 +1,6 @@
 {
   "name": "@emacs-grammarly/grammarly-languageserver",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "LSP server implementation for Grammarly",
   "author": "Rahul Kadyan <hey@znck.me>",
   "bin": "./bin/server.js",
@@ -68,7 +68,7 @@
   ],
   "dependencies": {
     "@grammarly/sdk": "2.3.17",
-    "@emacs-grammarly/grammarly-richtext-encoder": "^0.0.4",
+    "@emacs-grammarly/grammarly-richtext-encoder": "^0.0.5",
     "htmlparser2": "^8.0.1",
     "idb-keyval": "^6.1.0",
     "inversify": "^6.0.1",
