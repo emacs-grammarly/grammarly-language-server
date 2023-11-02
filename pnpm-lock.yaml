@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: false
-  excludeLinksFromLockfile: false
-
 neverBuiltDependencies:
   - keytar
   - tree-sitter-cli
@@ -122,7 +118,7 @@ importers:
         specifier: ^0.0.4
         version: link:../grammarly-richtext-encoder
       '@grammarly/sdk':
-        specifier: ^2.3.17
+        specifier: 2.3.17
         version: 2.3.17
       htmlparser2:
         specifier: ^8.0.1
@@ -7506,3 +7502,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+settings:
+  autoInstallPeers: false
+  excludeLinksFromLockfile: false
