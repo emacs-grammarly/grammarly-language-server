@@ -36,18 +36,17 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
       - name: Setup PNPM
         uses: pnpm/action-setup@v2
         with:
-          version: 8.1.1
           run_install: |
             - recursive: true
               args: [--frozen-lockfile]
       - name: Build
         run: pnpm run build
       - name: Upload build artefact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: build-artefact
           retention-days: 30
@@ -63,11 +62,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
       - name: Setup PNPM
         uses: pnpm/action-setup@v2
         with:
-          version: 8.1.1
           run_install: |
             - recursive: true
               args: [--frozen-lockfile]
@@ -99,11 +97,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
       - name: Setup PNPM
         uses: pnpm/action-setup@v2
         with:
-          version: 8.1.1
           run_install: |
             - recursive: true
               args: [--frozen-lockfile]
@@ -143,11 +140,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
       - name: Setup PNPM
         uses: pnpm/action-setup@v2
         with:
-          version: 8.1.1
           run_install: |
             - recursive: true
               args: [--frozen-lockfile]
@@ -212,11 +208,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
       - name: Setup PNPM
         uses: pnpm/action-setup@v2
         with:
-          version: 8.1.1
           run_install: |
             - recursive: true
               args: [--frozen-lockfile]
