@@ -1,6 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Release](https://img.shields.io/github/release/emacs-grammarly/grammarly-language-server.svg?logo=github)](https://github.com/emacs-grammarly/grammarly-language-server/releases/latest)
 [![npm](https://img.shields.io/npm/v/@emacs-grammarly/grammarly-languageserver?logo=npm&color=green)](https://www.npmjs.com/package/@emacs-grammarly/grammarly-languageserver)
+[![npm-dt](https://img.shields.io/npm/dt/@emacs-grammarly/grammarly-languageserver.svg)](https://npmcharts.com/compare/@emacs-grammarly/grammarly-languageserver?minimal=true)
 [![npm-dm](https://img.shields.io/npm/dm/@emacs-grammarly/grammarly-languageserver.svg)](https://npmcharts.com/compare/@emacs-grammarly/grammarly-languageserver?minimal=true)
 
 # Grammarly for VS Code
