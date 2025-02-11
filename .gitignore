@@ -10,3 +10,6 @@ dist/
 
 # Local Netlify folder
 .netlify
+
+# OS generated
+.DS_Store
